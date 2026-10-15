@@ -1,7 +1,12 @@
-   libgl1
-   libegl1
-   libgles2
-   libopengl0
-   libx11-6
-   libgomp1
-   libglib2.0-0
+libgl1
+libegl1
+libgles2
+libopengl0
+libx11-6
+libgomp1
+libglib2.0-0
+libusb-1.0-0
+libudev1
+libxext6
+libxrender1
+libsm6
