@@ -1,4 +1,7 @@
    libgl1
+   libegl1
+   libgles2
+   libopengl0
    libx11-6
    libgomp1
    libglib2.0-0
