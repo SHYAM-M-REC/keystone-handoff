@@ -1,0 +1,10 @@
+const base = { width: 30, height: 30, viewBox: "0 0 32 32", fill: "none", stroke: "currentColor", strokeWidth: 1.6, strokeLinecap: "round", strokeLinejoin: "round" };
+export const Camera = () => (<svg {...base}><rect x="4" y="10" width="24" height="16" rx="3" /><circle cx="16" cy="18" r="5" /><path d="M11 10l2-4h6l2 4" /></svg>);
+export const Cube = () => (<svg {...base}><path d="M16 4l11 6v12l-11 6-11-6V10z" /><path d="M5 10l11 6 11-6M16 16v12" /></svg>);
+export const Delta = () => (<svg {...base}><path d="M4 26L16 6l12 20z" /><path d="M10 26l6-10 6 10" strokeDasharray="2 3" /></svg>);
+export const Crack = () => (<svg {...base}><rect x="5" y="5" width="22" height="22" rx="2" /><path d="M17 5l-3 7 4 3-4 5 2 7" /></svg>);
+export const Wave = () => (<svg {...base}><path d="M3 20c3-8 6-8 9 0s6 8 9 0 5-6 8-3" /><path d="M3 26h26" strokeDasharray="2 3" /></svg>);
+export const Bell = () => (<svg {...base}><path d="M8 24h16l-2-3v-6a6 6 0 10-12 0v6z" /><path d="M13 27a3 3 0 006 0" /></svg>);
+export const Check = () => (<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 8.5l3.2 3L13 4.5" /></svg>);
+export const Open = () => (<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="8" cy="8" r="5.5" /><path d="M8 5v3.5M8 11v.1" /></svg>);
+export const Logo = ({ size = 28 }) => (<svg width={size} height={size} viewBox="0 0 32 32"><path d="M5 29L10.5 5h11L27 29z" fill="#C9A24B" /><path d="M10.5 5h11l-1.4 7h-8.2z" fill="#E4C677" /><path d="M16 12v17" stroke="#12161A" strokeWidth="1.3" /></svg>);
